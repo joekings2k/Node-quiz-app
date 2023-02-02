@@ -1,0 +1,32 @@
+<%- include("./partials/header") -%>
+<div class="contain" style="background-image: url(../public/images/q2.jpg)">
+  <form method="post" action="/addQuestion">
+    <div class="card">
+      <div class="input-group mb-3">
+        <span class="input-group-text" id="inputGroup-sizing-default"
+          >Question</span
+        >
+        <input type="text" class="form-control" name="question" />
+      </div>
+      <div class="input-group mb-5">
+        <span class="input-group-text">Options</span>
+        <input type="text" placeholder="option1" name="option1" />
+        <input type="text" placeholder="option2" name="option2" />
+        <input type="text" placeholder="option3" name="option3" />
+        <input type="text" placeholder="option4" name="option4" />
+      </div>
+      <div class="input-group mb-3">
+        <label class="input-group-text" for="inputGroupSelect01">Answer</label>
+        <select class="form-select" id="inputGroupSelect01" name="answer">
+          <option selected>Choose...</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+        </select>
+      </div>
+      <button type="submit" class="next">submit</button>
+    </div>
+  </form>
+</div>
+<%- include("./partials/footer") -%>
