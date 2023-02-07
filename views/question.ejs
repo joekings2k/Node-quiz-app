@@ -1,17 +1,19 @@
 <%- include("./partials/header") -%>
   <div class="contain">
     <div class="card">
-      <h3 class="question"><%=question%></h3>
+      <form method="post" action="/question/next">
+        <h3 class="question"><%=question%></h3>
       <div class="options">
         <% options.map((option,key)=>{%>
           <label class="radio" >
-	        <input required  type="radio" name="optradio"  ><%=option%>
-          </label
+	        <input required type="radio" name="optradio" value=<%=key+1%>><%=option%>
+          </label>
         <%})%>
-        >
       </div>
       <button type="submit" class="next">next</button>
     </div>
+      </form>
+      
 
   </div>
 <%- include("./partials/footer") -%>

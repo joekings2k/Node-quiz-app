@@ -1,69 +1,69 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.contain{
-    background-image: url(./images/q1.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.contain {
+  background-image: url(./images/q1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.btnContainer{
-    display: flex;
-    justify-content: center;
-
+.btnContainer {
+  display: flex;
+  justify-content: center;
 }
-.btnContainer a{
-    align-self: center;
-    margin-right: 30px;
-    width: 130px;
+.btnContainer a {
+  align-self: center;
+  margin-right: 30px;
+  width: 130px;
 }
-.card{
-    width: 60vw;
-    box-shadow: 0 2px 5px #ccc;
-    background-color: rgb(234, 234, 234);
-    border-radius: 10px;
+.card {
+  width: 60vw;
+  box-shadow: 0 2px 5px #ccc;
+  background-color: rgb(234, 234, 234);
+  border-radius: 10px;
 }
-.card .input-group{
-    padding: 10px;
+.card .input-group {
+  padding: 10px;
 }
-.options{
-    display: flex;
-    flex-direction: column;
+.options {
+  display: flex;
+  flex-direction: column;
+  
 }
-.options,.radio{
-    margin-left: 12px;
-    padding: 7px;
+.options,
+.radio {
+  margin-left: 12px;
+  padding: 7px;
 }
-.question{
-    margin-top: 20px;
-    font-size: 20px;
-    margin-left: 25px;
-
+.question {
+  margin-top: 20px;
+  font-size: 20px;
+  margin-left: 25px;
 }
-.next{
-    width: 80px;
-    align-self: flex-end;
-    margin: 20px;
-    background-color:rgba(16, 16, 194, 0.9);
-    color: white;
-    border: none;
-    padding: 7.9px;
-    border-radius: 7px;
+.next {
+  width: 80px;
+  align-self: flex-end;
+  margin: 20px;
+  background-color: rgba(16, 16, 194, 0.9);
+  color: white;
+  border: none;
+  padding: 7.9px;
+  border-radius: 7px;
 }
-footer{
-    position: absolute;
-    bottom: 0;
-    width: 100vw;
-    text-align: center;
-    background-color: rgba(118, 121, 123,0.5);
-    padding: 7px 0px;
-    color: rgba(251, 251, 251, 0.9);
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  text-align: center;
+  background-color: rgba(118, 121, 123, 0.5);
+  padding: 7px 0px;
+  color: rgba(251, 251, 251, 0.9);
 }
