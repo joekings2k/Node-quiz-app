@@ -1,6 +1,5 @@
 const quizModel = require("../model/quizModel");
 
-
 let correctAnswers = [],
   quizQuestions = [];
 i = 0;
@@ -59,15 +58,15 @@ module.exports = {
           question: quizQuestions[i].question,
           options: quizQuestions[i].options,
         });
-      }else{
+      } else {
         i = 0;
-        let score = 0
-        for (let j=0;j<quizQuestions.length;j++){
-          if (quizQuestions[j].answer == correctAnswers[j]){
-            score =score+1
+        let score = 0;
+        for (let j = 0; j < quizQuestions.length; j++) {
+          if (quizQuestions[j].answer == correctAnswers[j]) {
+            score = score + 1;
           }
         }
-        res.render("score",{score,total:quizQuestions.length})
+        res.render("score", { score, total: quizQuestions.length });
       }
     }
   },
