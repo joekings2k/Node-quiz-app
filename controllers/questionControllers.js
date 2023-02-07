@@ -1,5 +1,5 @@
 const quizModel = require("../model/quizModel");
-const express = require("express");
+
 
 let correctAnswers = [],
   quizQuestions = [];
